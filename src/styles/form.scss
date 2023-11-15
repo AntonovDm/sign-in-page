@@ -1,0 +1,28 @@
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  padding-right: 45px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+
+  &::placeholder {
+    color: rgba(0, 0, 0, 0.48);
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &:placeholder-shown {
+    background: #fff;
+  }
+
+  &:not(:placeholder-shown) {
+    background: rgba(0, 0, 0, 0.04);
+  }
+}

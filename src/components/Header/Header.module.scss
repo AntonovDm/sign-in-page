@@ -1,0 +1,17 @@
+@import '../../styles/mixins.scss';
+
+.header {
+  @include justify-align-center;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+}
